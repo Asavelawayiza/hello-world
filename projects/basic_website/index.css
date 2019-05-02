@@ -1,0 +1,90 @@
+
+table, th, td { 
+  border:1px solid black; 
+ } 
+    
+th {
+    color: black;
+}
+td {
+    color: blue;
+}
+table {
+    background-color: beige;
+}
+h1 {
+    color: black;
+    text-transform: uppercase;
+}
+h2 {
+    color: darkblue;
+}
+h3 {
+    color: red;
+} 
+p {
+    color: black;
+    font-family: verdana;
+    font-size: 17px;
+}
+body {
+    background-color: cornsilk;
+    margin: 1em;
+}
+.header {
+background-image: url("image/Table\ Mountain.jpg");
+background-size: 100%;
+} 
+
+ .side-bar img { 
+    border-radius: 10px; 
+    box-shadow: grey 0 0 10px; 
+ }
+
+  .colum {
+     display:flex;
+     flex:1
+
+}
+
+ .my-content {
+    padding: 1px; 
+ }
+
+ .box img {
+    float: right;
+    width: 30%;
+    margin-left: 1em;
+ }
+
+ .main {
+     width: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+
+ }
+ .box {
+     width: 33.3%;
+     height: 500px;
+     float: left;
+     text-align: center;
+ }
+.footer{
+    clear: both;
+}
+  @media only screen and (max-width:768px){
+    .box-1 , .box-2 {
+        width: 50%;
+    }
+    .box-3{
+        width: 100%;
+    }
+} 
+
+    @media only screen and (max-width:480px){
+         .box {
+            float:none;
+            width:100%; 
+            
+    } 
+}
